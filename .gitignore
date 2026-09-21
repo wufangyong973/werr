@@ -20,6 +20,7 @@ Thumbs.db
 Desktop.ini
 
 # Ignore root-level duplicate PDF (tracked in docs/ and zenodo/)
+temp_auto_push.bat
 /Mandelbrot_Fractal_Neural_Synthesis_IEEE_Paper.pdf
 !docs/*.pdf
 !zenodo/*.pdf
@@ -43,3 +44,5 @@ assets/[0-9A-F][0-9A-F]*.png
 benchmarks/snake/*.gif
 benchmarks/snake/*.mp4
 
+.gitignore
+branch_structure.json
