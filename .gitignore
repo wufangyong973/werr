@@ -33,6 +33,7 @@ scratch/
 # Sensitive runner scripts and cluster endpoints (STRICTLY EXCLUDED FROM GIT)
 runner/
 private_archive_rsa/
+temp_auto_push.bat
 *ssh*
 *password*
 *secret*
@@ -69,3 +70,5 @@ benchmarks/snake/*.gif
 benchmarks/snake/*.mp4
 
 
+.gitignore
+branch_structure.json
